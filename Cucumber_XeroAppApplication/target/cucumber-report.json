@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Organization added should be with the \"Paid\" Subscription and Established Plan Chosen",
+        "description": "",
+        "id": "add-another-organisation-to-paid-version-of-xero-app-and-check-the;organization-added-should-be-with-the-\"paid\"-subscription-and-established-plan-chosen",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16605270000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logs into the application with correct username and pwd",
+            "match": {
+              "location": "StepDefs_AddAnOrganisationquickbookuser.user_logs_into_the_application_with_correct_username_and_pwd()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2120082300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on myXero link from the top left menu",
+            "match": {
+              "location": "StepDefs_AddAnOrganisationquickbookuser.click_on_myXero_link_from_the_top_left_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7953754400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Add one more organisation with paid version",
+            "match": {
+              "location": "StepDefs_AddAnOrganisationquickbookuser.add_one_more_organisation_with_paid_version()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 478100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Check the currentlyusingquickbooks checkbox and click buynow button",
+            "match": {
+              "location": "StepDefs_AddAnOrganisationquickbookuser.check_the_currentlyusingquickbooks_checkbox_and_click_buynow_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add another organisation to Paid Version of Xero App and Check the",
+    "description": "currentlyusingquickbooks checkbox and then click on buy now button",
+    "id": "add-another-organisation-to-paid-version-of-xero-app-and-check-the",
+    "keyword": "Feature",
+    "uri": "C:/Users/senid/Workspace/Cucumber_XeroAppApplication/src/test/resources/Add another organization - Current Quickbooks user.feature",
+    "tags": []
+  }
+]
